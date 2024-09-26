@@ -1,12 +1,5 @@
 
 :root {
-
-  /**
-   * colors
-   */
-
-  /* gradient */
-
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
     hsl(240, 1%, 25%) 3%, 
@@ -53,10 +46,6 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
-  /**
-   * typography
-   */
-
   /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
 
@@ -76,32 +65,17 @@
   --fw-500: 500;
   --fw-600: 600;
 
-  /**
-   * shadow
-   */
-  
+
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
   --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
-  /**
-   * transition
-   */
-
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
 
 }
-
-
-
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -140,14 +114,6 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
-
-
-
-
-
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
 
 .sidebar,
 article {
@@ -277,26 +243,11 @@ article.active {
 }
 
 
-
-
-
-/*-----------------------------------*\
-  #MAIN
-\*-----------------------------------*/
-
 main {
   margin: 15px 12px;
   margin-bottom: 75px;
   min-width: 259px;
 }
-
-
-
-
-
-/*-----------------------------------*\
-  #SIDEBAR
-\*-----------------------------------*/
 
 .sidebar {
   margin-bottom: 15px;
@@ -427,16 +378,7 @@ main {
   font-size: 18px;
 }
 
-
 .social-item .social-link:hover { color: var(--light-gray); }
-
-
-
-
-
-/*-----------------------------------*\
-  #NAVBAR
-\*-----------------------------------*/
 
 .navbar {
   position: fixed;
@@ -471,14 +413,6 @@ main {
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
-
-
-
-
-/*-----------------------------------*\
-  #ABOUT
-\*-----------------------------------*/
-
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
@@ -489,12 +423,6 @@ main {
 }
 
 .about-text p { margin-bottom: 15px; }
-
-
-
-/**
- * #service 
- */
 
 .service { margin-bottom: 35px; }
 
@@ -538,11 +466,6 @@ main {
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
-
-
-/**
- * #testimonials 
- */
 
 .testimonials { margin-bottom: 30px; }
 
@@ -591,10 +514,6 @@ main {
   overflow: hidden;
 }
 
-
-/**
- * #testimonials-modal
- */
 
 .modal-container {
   position: fixed;
@@ -705,11 +624,6 @@ main {
   line-height: 1.6;
 }
 
-
-/**
- * #clients 
- */
-
 .clients { margin-bottom: 15px; }
 
 .clients-list {
@@ -740,13 +654,6 @@ main {
 
 .clients-item img:hover { filter: grayscale(0); }
 
-
-
-
-
-/*-----------------------------------*\
-  #RESUME
-\*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
 
@@ -813,10 +720,6 @@ main {
   line-height: 1.6;
 }
 
-/**
- * skills 
- */
-
 .skills-title { margin-bottom: 20px; }
 
 .skills-list { padding: 20px; }
@@ -849,14 +752,6 @@ main {
   height: 100%;
   border-radius: inherit;
 }
-
-
-
-
-
-/*-----------------------------------*\
-  #PORTFOLIO
-\*-----------------------------------*/
 
 .filter-list { display: none; }
 
